@@ -702,7 +702,7 @@ SECTIONS
 }
 
 .section.lb {
-    background-color: #f7f6f6
+    background-color: #FFFFFF
 }
 
 .section.db {
@@ -1921,7 +1921,7 @@ fieldset[disabled] .btn-primary.focus,
 .owl-theme-01 .owl-nav [class*="owl-"]:hover,
 a.goitem,
 .bgcolor {
-    background-color: #01bacf;
+    background-color: #720505
 }
 
 .list-style-2 i,
