@@ -22,15 +22,15 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{padding:2px 0;}
+#header{padding:50px 0;}
 
 #header #logo *{margin:0; padding:0; line-height:1;}
-#header #logo h1{margin-top:1px; font-size:26px; letter-spacing:2px;}
+#header #logo h1{margin-top:8px; font-size:26px; letter-spacing:3px;}
 
 #header #quickinfo{font-size:.8rem; text-transform:uppercase;}
-#header #quickinfo li{margin-right:50px; }
-#header #quickinfo li:last-child{margin-right:0; }
-#header #quickinfo strong{display:block; margin:14px 0 0 0; padding:0; font-size:.9rem;}
+#header #quickinfo li{margin-right:50px;}
+#header #quickinfo li:last-child{margin-right:0;}
+#header #quickinfo strong{display:block; margin:0 0 -5px 0; padding:0; font-size:.9rem;}
 #header #quickinfo br{display:none;}
 
 
@@ -245,24 +245,24 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#BCBCBC; background-color:#222222;}
-a{color:#95103B;}
+a{color:#0069A8;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
+input:focus, textarea:focus, *:required:focus{border-color:#0069A8;}
 
-.overlay{color:#FFFF82; background-color:inherit;}
+.overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#95103B; border-color:#95103B;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#0069A8; border-color:#0069A8;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
 /* Rows */
 .row1{color:#474747; background-color:#FFFFFF;}
-.row2{color:#FFFFFF; background-color:#95103B;}
+.row2{color:#FFFFFF; background-color:#0069A8;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#BCBCBC; background-color:#1A1A1A;}
 .row4 a{color:#40B8FF;}
@@ -289,9 +289,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#D5ACBB; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(145,0,40,0.55);/* #95103B */ border-color:rgba(255,255,255,.2);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#95103B;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#40B8FF; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,105,168,.7);/* #0069A8 */ border-color:rgba(255,255,255,.2);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#0069A8;}
 #mainav form select{color:#474747; background-color:#FFFFFF; border-color:rgba(0,0,0,.2);}
 
 #breadcrumb a{color:inherit; background-color:inherit; opacity:.3;}
@@ -299,17 +299,17 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 #breadcrumb li:last-child a{color:#40B8FF;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#95103B;}
+.container .sidebar nav a:hover{color:#0069A8;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#95103B;}
+.pagination .current *{color:#FFFFFF; background-color:#0069A8;}
 
-#backtotop{color:#FFFFFF; background-color:#95103B;}
+#backtotop{color:#FFFFFF; background-color:#0069A8;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#95103B;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#0069A8;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
